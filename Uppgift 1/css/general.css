@@ -126,6 +126,7 @@ p {
 
 .ad1 {
     width: 100%;
+    margin-top: 4vh;
 }
 
 .page-cv {
@@ -203,6 +204,34 @@ p {
     padding: 5vw;
 }
 
+.project-link {
+    color: rgb(86, 129, 170);
+    background-color: white;
+    margin-top: 8px;
+    border-style: solid;
+    border-color: rgb(86, 129, 170);
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.4s, color 0.4s, opacity 0.4;;
+}
+
+.project-link:hover {
+    background-color: rgb(86, 129, 170);
+    color: white;
+}
+
+.project-link:active {
+    opacity: 0.7;
+}
+
+.motivation-quote {
+    font-family: Caveat, Arial;
+    font-weight: 100;
+    font-size: 2em;
+}
 
 @media screen and (max-width: 1100px) {
     
@@ -305,6 +334,10 @@ p {
     .main {
         font-size: 6vw;
         
+    }
+
+    #portfolio-target p{
+        width: 100vw;
     }
 
 }
