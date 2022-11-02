@@ -53,18 +53,18 @@
     transition: background-color 0.2s, color 0.2s, opacity 0.2s;
 }
 
-.active {
-    background-color: rgba(86, 129, 170, 0.61);
-}
-
 .buttons a:hover {
     background-color: rgb(86, 129, 170);
     color: white;
-
 }
 
 .buttons a:active {
     opacity: 0.6;
+}
+
+#active {
+    background-color: rgb(86, 129, 170);
+    color: white;
 }
 
 .instagram-icon {
